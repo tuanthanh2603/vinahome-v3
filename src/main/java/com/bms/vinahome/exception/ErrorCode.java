@@ -7,6 +7,12 @@ import org.springframework.http.HttpStatusCode;
 public enum ErrorCode {
 
 
+    // Xử lý lỗi của VinaHome platform
+    GOOGLE_AUTH_FAILED(2001, "Không lấy được thông tin từ Google", HttpStatus.BAD_REQUEST),
+
+    //
+
+
     USERNAME_EXISTED(1005, "Tài khoản đã tồn tại", HttpStatus.CONFLICT),
     USER_NOT_EXISTED(1007, "Tài khoản không tồn tại", HttpStatus.NOT_FOUND),
     PASSWORD_IS_INCORRECT(1008, "Mật khẩu không chính xác", HttpStatus.UNAUTHORIZED),

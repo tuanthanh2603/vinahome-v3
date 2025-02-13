@@ -11,8 +11,8 @@
 	<groupId>com.bms</groupId>
 	<artifactId>vinahome-v3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>bms-server</name>
-	<description>Server BMS</description>
+	<name>vinahome-v3</name>
+	<description>VinaHome</description>
 	<url/>
 	<licenses>
 		<license/>
